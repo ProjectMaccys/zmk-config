@@ -13,7 +13,7 @@
                 &kp K   &kp L   &kp M   &kp N   &kp O   &kp P 
                 &kp N1  &kp N2  &kp N3  &kp N4  &kp N5
                 &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-                &kp DOT &kp COMMA &kp FSLH &kp  &kp SQT
+                &kp DOT &kp COMMA &kp FSLH &kp SEMI &kp SQT
                 //RC(6,0) RC(6,1) RC(6,2) RC(6,3) RC(6,4) RC(6,5)
                 //RC(7,0) RC(7,1) RC(7,2) RC(7,3) RC(7,4)              
 
