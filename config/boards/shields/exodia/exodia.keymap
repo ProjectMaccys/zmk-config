@@ -11,11 +11,11 @@
                 &kp Q   &kp W   &kp E   &kp R   &kp T
                 &kp A   &kp S   &kp D   &kp F   &kp G
                 &kp Z   &kp X   &kp C   &kp V   &kp B   &kp TILDE
-                &kp ESC &kp TAB &kp S   &kp LSHIFT  &kp BSPC
+                &kp ESC &kp TAB &kp S   &kp LSHIFT  &kp SPACE
                 &kp P   &kp O   &kp I   &kp U   &kp Y
                 &kp SEMI   &kp L   &kp K   &kp J   &kp H
                 &kp FSLH    &kp DOT &kp COMMA   &kp M   &kp N   &kp BSLH
-                &kp RET &kp SQT &kp MINUS   &kp S   &kp SPACE
+                &kp RET &kp SQT &kp MINUS   &kp S   &kp BSPC
             >;
         };
 
