@@ -14,7 +14,7 @@
                 &kp ESC &kp TAB &kp S   &kp LSHIFT  &kp BSPC
                 &kp P   &kp O   &kp I   &kp U   &kp Y
                 &kp SEMI   &kp L   &kp K   &kp J   &kp H
-                &kp BSLH    &kp N &kp M   &kp COMMA   &kp DOT   &kp FSLH
+                &kp FSLH    &kp DOT &kp COMMA   &kp M   &kp N   &kp BSLH
                 &kp RET &kp SQT &kp MINUS   &kp S   &kp SPACE
             >;
         };
