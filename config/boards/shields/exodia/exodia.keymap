@@ -15,14 +15,17 @@
                 &kp P   &kp O   &kp I   &kp U   &kp Y
                 &kp SEMI   &kp L   &kp K   &kp J   &kp H
                 &kp FSLH    &kp DOT &kp COMMA   &kp M   &kp N   &kp BSLH
-                &kp RET &kp SQT &kp MINUS   &kp S   &kp BSPC
+                &kp RET &kp SQT &kp MINUS   &mo 1   &kp BSPC
             >;
         };
 
-     //   bt_layer {
-     //       bindings = <
-     //           &none
-     //       >;
-     //   };
+        lower_layer {
+            bindings = <
+                &kp 0   &kp 1   &kp 2   &kp 3   &kp 4
+                &kp A   &kp Q   &kp W   &kp E   &kp R
+                &kp LSHIFT  &kp A   &kp S   &kp D   &kp B   &kp TILDE
+                &kp LCTRL &kp TAB &kp S   &kp LSHIFT  &kp SPACE
+            >;
+        };
     };
 };
