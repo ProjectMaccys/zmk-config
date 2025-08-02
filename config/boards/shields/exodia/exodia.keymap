@@ -16,7 +16,7 @@
                 &kp P       &kp O       &kp I       &kp U           &kp Y
                 &kp SEMI    &kp L       &kp K       &kp J           &kp H
                 &kp FSLH    &kp DOT     &kp COMMA   &kp M           &kp N   &kp BSLH
-                &kp RET     &kp SQT     &mo 3       &tog 1          &kp BSPC
+                &kp RET     &kp SQT     &mo 2       &tog 1          &kp BSPC
             >;
         };
 
