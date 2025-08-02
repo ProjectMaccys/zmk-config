@@ -8,23 +8,38 @@
 
         default_layer{
             bindings = <
-                &kp Q   &kp W   &kp E   &kp R   &kp T
-                &kp A   &kp S   &kp D   &kp F   &kp G
-                &kp Z   &kp X   &kp C   &kp V   &kp B   &kp TILDE
-                &kp ESC &kp LCTRL &kp S   &kp LSHIFT  &kp SPACE
-                &kp P   &kp O   &kp I   &kp U   &kp Y
-                &kp SEMI   &kp L   &kp K   &kp J   &kp H
-                &kp FSLH    &kp DOT &kp COMMA   &kp M   &kp N   &kp BSLH
-                &kp RET &kp SQT &kp MINUS   &tog 1   &kp BSPC
+                &kp Q       &kp W       &kp E       &kp R           &kp T
+                &kp A       &kp S       &kp D       &kp F           &kp G
+                &kp Z       &kp X       &kp C       &kp V           &kp B   &kp TILDE
+                &kp ESC     &kp LCTRL   &kp S       &kp LSHIFT      &kp SPACE
+
+                &kp P       &kp O       &kp I       &kp U           &kp Y
+                &kp SEMI    &kp L       &kp K       &kp J           &kp H
+                &kp FSLH    &kp DOT     &kp COMMA   &kp M           &kp N   &kp BSLH
+                &kp RET     &kp SQT     &mo 3       &tog 1          &kp BSPC
             >;
         };
 
-        lower_layer {
+        game_layer {
             bindings = <
                 &kp N5   &kp N1   &kp N2   &kp N3   &kp N4
                 &kp TAB   &kp Q   &kp W   &kp E   &kp R
                 &kp LSHIFT  &kp A   &kp S   &kp D   &kp B   &kp F
                 &kp LCTRL &kp TAB &kp TILDE   &kp G  &kp LALT
+            >;
+        };
+
+        symbol_layer {
+            bindings = <
+                &kp EXCL    &kp AT_SIGN &kp POUND   &kp DOLLAR  &kp PERCENT
+                &none       &none       &none       &none       &none
+                &none       &none       &none       &none       &none   &none
+                &none       &none       &none       &none       &none
+
+                &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR
+                &none       &none       &none       &kp LBRC    &kp RBRC
+                &none       &none       &none       &none       &none   &none
+                &none       &none       &none       &none       &none
             >;
         };
     };
