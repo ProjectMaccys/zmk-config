@@ -38,8 +38,8 @@
 
                 &kp N0      &kp N9      &kp N8      &kp N7      &kp N6
                 &kp RBKT    &kp LBKT    &none       &none       &none
-                &none       &none       &none       &none       &none   &none
-                &none       &none       &none       &none       &none
+                &kp EQUAL   &kp MINUS   &none       &none       &none   &none
+                &none       &none       &none       &none       &kp LSHFT
             >;
         };
     };
